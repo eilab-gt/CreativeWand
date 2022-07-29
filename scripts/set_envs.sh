@@ -6,8 +6,9 @@ eval "$(command conda 'shell.bash' 'hook' 2> /dev/null)"
 
 echo "Setting source directory..."
 
-BASEDIR=$(dirname "$0")
-#echo "$BASEDIR"
+#BASEDIR=$(dirname "$0")
+BASEDIR="$( cd -- "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
+echo "$BASEDIR"
 SOURCEDIR="$BASEDIR/../source/"
 #echo $SOURCEDIR
 
