@@ -28,7 +28,7 @@ class ResetAreaComm(BaseCommunication):
             start = exp_manager.frontend.get_information(
                 Req("Where (line number) should I start to clean up? ", cast_to=int))
             end = exp_manager.frontend.get_information(
-                Req("Where (line number) should I start to clean up? ", cast_to=int))
+                Req("Where (line number) should I stop cleaning up? ", cast_to=int))
             if start <= end:
                 break
             else:

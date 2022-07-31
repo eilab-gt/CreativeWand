@@ -46,5 +46,24 @@ In `scripts` folder, run all scripts that start with `start`:
 - Based on your system setup, you may need to `chmod +x [script name]` all scripts, or additionally deal with `node.js`
   dependencies.
 
+Now you can access http://localhost:3000/?mode=mode_name&pid=test_session to start using the system.
+
+- Available modes are `local` or `global` but check `StartExperiment.py` for how to add more (Customize available
+  communications, Experience Manager, Frontend, etc.)
+- `pid` will name the session, which then you can retrieve logs in `logs/` folder.
+- If you do not provide these URL parameters the start button won't work.
+
+## If it doesn't work
+
+- If CreativeWand keeps saying it can't understand you
+    - This is a handle for internal errors. Check the console to see whether there are configuration (connection, setup)
+      issues between all backend servers.
+- If Webserver complains about compile errors
+    - `npm install` in `web-frontend/web-interface` (which should have been automatically done). There may be some
+      per-machine `node.js` problem.
+- If the Addon server gives error
+    - Double check whether you have your Addons set up correctly. Did you correctly set the paths to the models
+      downloaded?
+
 # Have fun!
 Feel free to open an issue if you get into any problems :) .

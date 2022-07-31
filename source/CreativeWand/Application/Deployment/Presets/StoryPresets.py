@@ -47,7 +47,7 @@ comm_list_presets = {
     "s1_local_only": [
         "OpeningMessageComm",
         "FeedbackComm",
-        "ResetAreaComm",
+        # "ResetAreaComm",
         "FeedbackSubgoalAchieved",
         "GenerateComm_nosketch",
         "GenerateWithFreezeComm_nosketch",
@@ -56,7 +56,7 @@ comm_list_presets = {
     "s1_global_only": [
         "OpeningMessageComm",
         "FeedbackComm",
-        "ResetAreaComm",
+        #"ResetAreaComm",
         "FeedbackSubgoalAchieved",
         "UserSketchComm",
         "GenerateWithSketchComm",
