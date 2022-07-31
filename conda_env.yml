@@ -126,7 +126,6 @@ dependencies:
   - zlib=1.2.11=h166bdaf_1014
   - zstd=1.4.9=haebb681_0
   - pip:
-      - apex==0.1
       - bidict==0.22.0
       - flask-classful==0.14.2
       - flask-socketio==5.1.1
