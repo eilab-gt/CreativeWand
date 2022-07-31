@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "rabbitode": "^3.0.5",
+    "react-chat-widget": "^3.1.4"
+  }
+}

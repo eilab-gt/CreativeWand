@@ -1,0 +1,9 @@
+scipy~=1.7.3
+requests~=2.27.1
+numpy~=1.21.2
+nltk~=3.7
+flask~=2.0.2
+transformers~=4.16.2
+tqdm~=4.63.0
+flask_cors~=3.0.10
+flask_socketio~=5.2.0
