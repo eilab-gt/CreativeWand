@@ -2,7 +2,7 @@
 
 This repository holds the implementation of the `Creative Wand` framework, along with an exemplar implementation in text
 domain.
-For more details on what this is, feel free to check [PAPER LINK].
+For more details on what this is, feel free to check [Creative Wand: A System to Study Effects of Communications in Co-Creative Settings](https://arxiv.org/abs/2208.02886).
 
 # Installation & Setup
 
