@@ -1,0 +1,1578 @@
+{
+  "session_id": "test_sample2",
+  "session_type": "s2_test",
+  "session_code": "sample",
+  "session_mode": "s2_f",
+  "created_at": "Nov21192417",
+  "version": "2022.11.08.0",
+  "frontend_logs": [
+    {
+      "id": 0,
+      "time": "11/21/2022, 19:24:17.845298",
+      "type": "sync_react_states",
+      "args0": "",
+      "request": {},
+      "returned": "None"
+    },
+    {
+      "id": 1,
+      "time": "11/21/2022, 19:24:17.862979",
+      "type": "sync_react_states",
+      "args0": "",
+      "request": {},
+      "returned": "None"
+    },
+    {
+      "id": 2,
+      "time": "11/21/2022, 19:24:18.163732",
+      "type": "send_information",
+      "args0": "You have 12 interactions left. The experiment will end after the counter reaches 0.",
+      "request": {
+        "args0": "You have 12 interactions left. The experiment will end after the counter reaches 0."
+      },
+      "returned": "None"
+    },
+    {
+      "id": 3,
+      "time": "11/21/2022, 19:24:20.631754",
+      "type": "get_information",
+      "args0": "Select a way to work with the Wand:\n[1]Apply topic control.\n[2]Get a topic suggestion.\n[3]Let the Wand write.\n[4]Report goal completion.\n[Done]Say \"We're Done!\" (End the session)\nChoose from the options or type in what you wish to do...",
+      "request": {
+        "args0": "Select a way to work with the Wand:\n[1]Apply topic control.\n[2]Get a topic suggestion.\n[3]Let the Wand write.\n[4]Report goal completion.\n[Done]Say \"We're Done!\" (End the session)\nChoose from the options or type in what you wish to do..."
+      },
+      "returned": "1"
+    },
+    {
+      "id": 4,
+      "time": "11/21/2022, 19:24:20.932663",
+      "type": "send_information",
+      "args0": "You can let me introduce a specific topic to part of the story.\n If we put multiple topics in, I will try writing a line with regard to all topics.\nJust let me know the topic and where to apply.",
+      "request": {
+        "args0": "You can let me introduce a specific topic to part of the story.\n If we put multiple topics in, I will try writing a line with regard to all topics.\nJust let me know the topic and where to apply."
+      },
+      "returned": "None"
+    },
+    {
+      "id": 5,
+      "time": "11/21/2022, 19:24:22.453014",
+      "type": "get_information",
+      "args0": "Which topic should I introduce? Try one from ['Business', 'Science', 'World', 'Sports'] or type in yours:",
+      "request": {
+        "args0": "Which topic should I introduce? Try one from ['Business', 'Science', 'World', 'Sports'] or type in yours:"
+      },
+      "returned": "Business"
+    },
+    {
+      "id": 6,
+      "time": "11/21/2022, 19:24:25.619668",
+      "type": "get_information",
+      "args0": "Where (line number) should I phase this topic in? ",
+      "request": {
+        "args0": "Where (line number) should I phase this topic in? "
+      },
+      "returned": "1"
+    },
+    {
+      "id": 7,
+      "time": "11/21/2022, 19:24:28.492937",
+      "type": "get_information",
+      "args0": "Where (line number) should I phase this topic out? ",
+      "request": {
+        "args0": "Where (line number) should I phase this topic out? "
+      },
+      "returned": "5"
+    },
+    {
+      "id": 8,
+      "time": "11/21/2022, 19:24:28.793632",
+      "type": "send_information",
+      "args0": "OK.",
+      "request": {
+        "args0": "OK."
+      },
+      "returned": "None"
+    },
+    {
+      "id": 9,
+      "time": "11/21/2022, 19:24:29.097707",
+      "type": "send_information",
+      "args0": "You've added a sketch for topic Business! You can add more, or see updated stories by asking me to show the stories again!",
+      "request": {
+        "args0": "You've added a sketch for topic Business! You can add more, or see updated stories by asking me to show the stories again!"
+      },
+      "returned": "None"
+    },
+    {
+      "id": 10,
+      "time": "11/21/2022, 19:24:29.103769",
+      "type": "sync_react_states",
+      "args0": "",
+      "request": {},
+      "returned": "None"
+    },
+    {
+      "id": 11,
+      "time": "11/21/2022, 19:24:29.404510",
+      "type": "send_information",
+      "args0": "You have 11 interactions left. The experiment will end after the counter reaches 0.",
+      "request": {
+        "args0": "You have 11 interactions left. The experiment will end after the counter reaches 0."
+      },
+      "returned": "None"
+    },
+    {
+      "id": 12,
+      "time": "11/21/2022, 19:24:33.366106",
+      "type": "get_information",
+      "args0": "Select a way to work with the Wand:\n[1]Apply topic control.\n[2]Get a topic suggestion.\n[3]Let the Wand write.\n[4]Report goal completion.\n[5]Undo.\n[Done]Say \"We're Done!\" (End the session)\nChoose from the options or type in what you wish to do...",
+      "request": {
+        "args0": "Select a way to work with the Wand:\n[1]Apply topic control.\n[2]Get a topic suggestion.\n[3]Let the Wand write.\n[4]Report goal completion.\n[5]Undo.\n[Done]Say \"We're Done!\" (End the session)\nChoose from the options or type in what you wish to do..."
+      },
+      "returned": "1"
+    },
+    {
+      "id": 13,
+      "time": "11/21/2022, 19:24:33.666928",
+      "type": "send_information",
+      "args0": "You can let me introduce a specific topic to part of the story.\n If we put multiple topics in, I will try writing a line with regard to all topics.\nJust let me know the topic and where to apply.",
+      "request": {
+        "args0": "You can let me introduce a specific topic to part of the story.\n If we put multiple topics in, I will try writing a line with regard to all topics.\nJust let me know the topic and where to apply."
+      },
+      "returned": "None"
+    },
+    {
+      "id": 14,
+      "time": "11/21/2022, 19:24:34.970016",
+      "type": "get_information",
+      "args0": "Which topic should I introduce? Try one from ['Business', 'Science', 'World', 'Sports'] or type in yours:",
+      "request": {
+        "args0": "Which topic should I introduce? Try one from ['Business', 'Science', 'World', 'Sports'] or type in yours:"
+      },
+      "returned": "World"
+    },
+    {
+      "id": 15,
+      "time": "11/21/2022, 19:24:36.591103",
+      "type": "send_information",
+      "args0": "Let's start over.",
+      "request": {
+        "args0": "Let's start over."
+      },
+      "returned": "None"
+    },
+    {
+      "id": 16,
+      "time": "11/21/2022, 19:24:36.598693",
+      "type": "sync_react_states",
+      "args0": "",
+      "request": {},
+      "returned": "None"
+    },
+    {
+      "id": 17,
+      "time": "11/21/2022, 19:24:36.899453",
+      "type": "send_information",
+      "args0": "You have 11 interactions left. The experiment will end after the counter reaches 0.",
+      "request": {
+        "args0": "You have 11 interactions left. The experiment will end after the counter reaches 0."
+      },
+      "returned": "None"
+    },
+    {
+      "id": 18,
+      "time": "11/21/2022, 19:24:39.051576",
+      "type": "get_information",
+      "args0": "Select a way to work with the Wand:\n[1]Apply topic control.\n[2]Get a topic suggestion.\n[3]Let the Wand write.\n[4]Report goal completion.\n[5]Undo.\n[Done]Say \"We're Done!\" (End the session)\nChoose from the options or type in what you wish to do...",
+      "request": {
+        "args0": "Select a way to work with the Wand:\n[1]Apply topic control.\n[2]Get a topic suggestion.\n[3]Let the Wand write.\n[4]Report goal completion.\n[5]Undo.\n[Done]Say \"We're Done!\" (End the session)\nChoose from the options or type in what you wish to do..."
+      },
+      "returned": "1"
+    },
+    {
+      "id": 19,
+      "time": "11/21/2022, 19:24:39.352302",
+      "type": "send_information",
+      "args0": "You can let me introduce a specific topic to part of the story.\n If we put multiple topics in, I will try writing a line with regard to all topics.\nJust let me know the topic and where to apply.",
+      "request": {
+        "args0": "You can let me introduce a specific topic to part of the story.\n If we put multiple topics in, I will try writing a line with regard to all topics.\nJust let me know the topic and where to apply."
+      },
+      "returned": "None"
+    },
+    {
+      "id": 20,
+      "time": "11/21/2022, 19:24:43.280915",
+      "type": "get_information",
+      "args0": "Which topic should I introduce? Try one from ['Business', 'Science', 'World', 'Sports'] or type in yours:",
+      "request": {
+        "args0": "Which topic should I introduce? Try one from ['Business', 'Science', 'World', 'Sports'] or type in yours:"
+      },
+      "returned": "Sports"
+    },
+    {
+      "id": 21,
+      "time": "11/21/2022, 19:24:45.486485",
+      "type": "get_information",
+      "args0": "Where (line number) should I phase this topic in? ",
+      "request": {
+        "args0": "Where (line number) should I phase this topic in? "
+      },
+      "returned": "6"
+    },
+    {
+      "id": 22,
+      "time": "11/21/2022, 19:24:47.924486",
+      "type": "get_information",
+      "args0": "Where (line number) should I phase this topic out? ",
+      "request": {
+        "args0": "Where (line number) should I phase this topic out? "
+      },
+      "returned": "9"
+    },
+    {
+      "id": 23,
+      "time": "11/21/2022, 19:24:48.225192",
+      "type": "send_information",
+      "args0": "OK.",
+      "request": {
+        "args0": "OK."
+      },
+      "returned": "None"
+    },
+    {
+      "id": 24,
+      "time": "11/21/2022, 19:24:48.532361",
+      "type": "send_information",
+      "args0": "You've added a sketch for topic Sports! You can add more, or see updated stories by asking me to show the stories again!",
+      "request": {
+        "args0": "You've added a sketch for topic Sports! You can add more, or see updated stories by asking me to show the stories again!"
+      },
+      "returned": "None"
+    },
+    {
+      "id": 25,
+      "time": "11/21/2022, 19:24:48.539281",
+      "type": "sync_react_states",
+      "args0": "",
+      "request": {},
+      "returned": "None"
+    },
+    {
+      "id": 26,
+      "time": "11/21/2022, 19:24:48.840033",
+      "type": "send_information",
+      "args0": "You have 10 interactions left. The experiment will end after the counter reaches 0.",
+      "request": {
+        "args0": "You have 10 interactions left. The experiment will end after the counter reaches 0."
+      },
+      "returned": "None"
+    },
+    {
+      "id": 27,
+      "time": "11/21/2022, 19:24:52.407391",
+      "type": "get_information",
+      "args0": "Select a way to work with the Wand:\n[1]Apply topic control.\n[2]Get a topic suggestion.\n[3]Let the Wand write.\n[4]Report goal completion.\n[5]Undo.\n[Done]Say \"We're Done!\" (End the session)\nChoose from the options or type in what you wish to do...",
+      "request": {
+        "args0": "Select a way to work with the Wand:\n[1]Apply topic control.\n[2]Get a topic suggestion.\n[3]Let the Wand write.\n[4]Report goal completion.\n[5]Undo.\n[Done]Say \"We're Done!\" (End the session)\nChoose from the options or type in what you wish to do..."
+      },
+      "returned": "3"
+    },
+    {
+      "id": 28,
+      "time": "11/21/2022, 19:24:52.708263",
+      "type": "send_information",
+      "args0": "As you are using this entry for the first time, let me explain.",
+      "request": {
+        "args0": "As you are using this entry for the first time, let me explain."
+      },
+      "returned": "None"
+    },
+    {
+      "id": 29,
+      "time": "11/21/2022, 19:24:53.009256",
+      "type": "send_information",
+      "args0": "The wand can write a story for you based on applied controls.\nYou can either get the whole story rewritten or only generating from a certain point,leave the previous sentences untouched.\nYou can use this multiple times for alternatives, and if you prefer the previous one, use the Undo function.",
+      "request": {
+        "args0": "The wand can write a story for you based on applied controls.\nYou can either get the whole story rewritten or only generating from a certain point,leave the previous sentences untouched.\nYou can use this multiple times for alternatives, and if you prefer the previous one, use the Undo function."
+      },
+      "returned": "None"
+    },
+    {
+      "id": 30,
+      "time": "11/21/2022, 19:24:56.547507",
+      "type": "get_information",
+      "args0": "Should I go ahead?",
+      "request": {
+        "args0": "Should I go ahead?"
+      },
+      "returned": "yes"
+    },
+    {
+      "id": 31,
+      "time": "11/21/2022, 19:24:56.848298",
+      "type": "send_information",
+      "args0": "As we do not have a story written, let's create one first!",
+      "request": {
+        "args0": "As we do not have a story written, let's create one first!"
+      },
+      "returned": "None"
+    },
+    {
+      "id": 32,
+      "time": "11/21/2022, 19:24:57.148995",
+      "type": "send_information",
+      "args0": "OK, I'm generating parts that are not frozen by you...",
+      "request": {
+        "args0": "OK, I'm generating parts that are not frozen by you..."
+      },
+      "returned": "None"
+    },
+    {
+      "id": 33,
+      "time": "11/21/2022, 19:24:57.449679",
+      "type": "send_information",
+      "args0": "Loading... (May take up to half a minute)",
+      "request": {
+        "args0": "Loading... (May take up to half a minute)"
+      },
+      "returned": "None"
+    },
+    {
+      "id": 34,
+      "time": "11/21/2022, 19:25:00.365754",
+      "type": "send_information",
+      "args0": "Working on #0: financial advice was given to every young person in America.",
+      "request": {
+        "args0": "Working on #0: financial advice was given to every young person in America."
+      },
+      "returned": "None"
+    },
+    {
+      "id": 35,
+      "time": "11/21/2022, 19:25:03.041850",
+      "type": "send_information",
+      "args0": "Working on #1: They were told that it was important to learn about how to make money, so they went to school and started making money.",
+      "request": {
+        "args0": "Working on #1: They were told that it was important to learn about how to make money, so they went to school and started making money."
+      },
+      "returned": "None"
+    },
+    {
+      "id": 36,
+      "time": "11/21/2022, 19:25:06.034708",
+      "type": "send_information",
+      "args0": "Working on #2: Nowadays, we have more children than ever before.",
+      "request": {
+        "args0": "Working on #2: Nowadays, we have more children than ever before."
+      },
+      "returned": "None"
+    },
+    {
+      "id": 37,
+      "time": "11/21/2022, 19:25:09.007021",
+      "type": "send_information",
+      "args0": "Working on #3: When they were young, they had their own business.",
+      "request": {
+        "args0": "Working on #3: When they were young, they had their own business."
+      },
+      "returned": "None"
+    },
+    {
+      "id": 38,
+      "time": "11/21/2022, 19:25:12.659501",
+      "type": "send_information",
+      "args0": "Working on #4: The best way to get involved is to start and run a business!",
+      "request": {
+        "args0": "Working on #4: The best way to get involved is to start and run a business!"
+      },
+      "returned": "None"
+    },
+    {
+      "id": 39,
+      "time": "11/21/2022, 19:25:17.730233",
+      "type": "send_information",
+      "args0": "Working on #5: The Pittsburgh Steelers played football for the first time on October 6, 1963.",
+      "request": {
+        "args0": "Working on #5: The Pittsburgh Steelers played football for the first time on October 6, 1963."
+      },
+      "returned": "None"
+    },
+    {
+      "id": 40,
+      "time": "11/21/2022, 19:25:22.743105",
+      "type": "send_information",
+      "args0": "Working on #6: When I started my business, I had no idea what I was doing.",
+      "request": {
+        "args0": "Working on #6: When I started my business, I had no idea what I was doing."
+      },
+      "returned": "None"
+    },
+    {
+      "id": 41,
+      "time": "11/21/2022, 19:25:26.212143",
+      "type": "send_information",
+      "args0": "Working on #7: I didn't know what to expect from the team.",
+      "request": {
+        "args0": "Working on #7: I didn't know what to expect from the team."
+      },
+      "returned": "None"
+    },
+    {
+      "id": 42,
+      "time": "11/21/2022, 19:25:29.613141",
+      "type": "send_information",
+      "args0": "Working on #8: I thought it was a good idea to bring my kids to the game.",
+      "request": {
+        "args0": "Working on #8: I thought it was a good idea to bring my kids to the game."
+      },
+      "returned": "None"
+    },
+    {
+      "id": 43,
+      "time": "11/21/2022, 19:25:32.912065",
+      "type": "send_information",
+      "args0": "Working on #9: My kids were playing with a lot of other kids.",
+      "request": {
+        "args0": "Working on #9: My kids were playing with a lot of other kids."
+      },
+      "returned": "None"
+    },
+    {
+      "id": 44,
+      "time": "11/21/2022, 19:25:33.212688",
+      "type": "send_information",
+      "args0": "Done!",
+      "request": {
+        "args0": "Done!"
+      },
+      "returned": "None"
+    },
+    {
+      "id": 45,
+      "time": "11/21/2022, 19:25:33.225533",
+      "type": "sync_react_states",
+      "args0": "",
+      "request": {},
+      "returned": "None"
+    },
+    {
+      "id": 46,
+      "time": "11/21/2022, 19:25:33.526197",
+      "type": "send_information",
+      "args0": "You have 9 interactions left. The experiment will end after the counter reaches 0.",
+      "request": {
+        "args0": "You have 9 interactions left. The experiment will end after the counter reaches 0."
+      },
+      "returned": "None"
+    },
+    {
+      "id": 47,
+      "time": "11/21/2022, 19:33:58.782932",
+      "type": "get_information",
+      "args0": "Select a way to work with the Wand:\n[1]Apply topic control.\n[2]Check off-topicness of a sentence.\n[3]Get a sentence suggestion.\n[4]Get a story quality tip.\n[5]Get a topic suggestion.\n[6]Let the Wand write.\n(Click > for next page)\nChoose from the options or type in what you wish to do...",
+      "request": {
+        "args0": "Select a way to work with the Wand:\n[1]Apply topic control.\n[2]Check off-topicness of a sentence.\n[3]Get a sentence suggestion.\n[4]Get a story quality tip.\n[5]Get a topic suggestion.\n[6]Let the Wand write.\n(Click > for next page)\nChoose from the options or type in what you wish to do..."
+      },
+      "returned": "4"
+    },
+    {
+      "id": 48,
+      "time": "11/21/2022, 19:33:59.083739",
+      "type": "send_information",
+      "args0": "As you are using this entry for the first time, let me explain.",
+      "request": {
+        "args0": "As you are using this entry for the first time, let me explain."
+      },
+      "returned": "None"
+    },
+    {
+      "id": 49,
+      "time": "11/21/2022, 19:33:59.384359",
+      "type": "send_information",
+      "args0": "The wand will proofread the story with its own criteria and highlight places that may need work.\nAs the Wand will use one out of many possible criteria, you will get different results every time.",
+      "request": {
+        "args0": "The wand will proofread the story with its own criteria and highlight places that may need work.\nAs the Wand will use one out of many possible criteria, you will get different results every time."
+      },
+      "returned": "None"
+    },
+    {
+      "id": 50,
+      "time": "11/21/2022, 19:34:01.743086",
+      "type": "get_information",
+      "args0": "Should I go ahead?",
+      "request": {
+        "args0": "Should I go ahead?"
+      },
+      "returned": "no"
+    },
+    {
+      "id": 51,
+      "time": "11/21/2022, 19:34:02.043850",
+      "type": "send_information",
+      "args0": "Got it.",
+      "request": {
+        "args0": "Got it."
+      },
+      "returned": "None"
+    },
+    {
+      "id": 52,
+      "time": "11/21/2022, 19:34:02.054009",
+      "type": "sync_react_states",
+      "args0": "",
+      "request": {},
+      "returned": "None"
+    },
+    {
+      "id": 53,
+      "time": "11/21/2022, 19:34:02.354688",
+      "type": "send_information",
+      "args0": "You have 9 interactions left. The experiment will end after the counter reaches 0.",
+      "request": {
+        "args0": "You have 9 interactions left. The experiment will end after the counter reaches 0."
+      },
+      "returned": "None"
+    },
+    {
+      "id": 54,
+      "time": "11/21/2022, 19:34:05.359286",
+      "type": "get_information",
+      "args0": "Select a way to work with the Wand:\n[1]Apply topic control.\n[2]Check off-topicness of a sentence.\n[3]Get a sentence suggestion.\n[4]Get a story quality tip.\n[5]Get a topic suggestion.\n[6]Let the Wand write.\n(Click > for next page)\nChoose from the options or type in what you wish to do...",
+      "request": {
+        "args0": "Select a way to work with the Wand:\n[1]Apply topic control.\n[2]Check off-topicness of a sentence.\n[3]Get a sentence suggestion.\n[4]Get a story quality tip.\n[5]Get a topic suggestion.\n[6]Let the Wand write.\n(Click > for next page)\nChoose from the options or type in what you wish to do..."
+      },
+      "returned": "4"
+    },
+    {
+      "id": 55,
+      "time": "11/21/2022, 19:34:05.660033",
+      "type": "send_information",
+      "args0": "\nOne second, thinking...\n",
+      "request": {
+        "args0": "\nOne second, thinking...\n"
+      },
+      "returned": "None"
+    },
+    {
+      "id": 56,
+      "time": "11/21/2022, 19:34:05.960682",
+      "type": "send_information",
+      "args0": "Let me look into if: The story makes me feel relaxed.",
+      "request": {
+        "args0": "Let me look into if: The story makes me feel relaxed."
+      },
+      "returned": "None"
+    },
+    {
+      "id": 57,
+      "time": "11/21/2022, 19:34:08.415155",
+      "type": "send_information",
+      "args0": "I've highlighted place where I think: The story makes me feel relaxed.",
+      "request": {
+        "args0": "I've highlighted place where I think: The story makes me feel relaxed."
+      },
+      "returned": "None"
+    },
+    {
+      "id": 58,
+      "time": "11/21/2022, 19:34:08.425961",
+      "type": "sync_react_states",
+      "args0": "",
+      "request": {},
+      "returned": "None"
+    },
+    {
+      "id": 59,
+      "time": "11/21/2022, 19:34:08.726442",
+      "type": "send_information",
+      "args0": "You have 8 interactions left. The experiment will end after the counter reaches 0.",
+      "request": {
+        "args0": "You have 8 interactions left. The experiment will end after the counter reaches 0."
+      },
+      "returned": "None"
+    },
+    {
+      "id": 60,
+      "time": "11/21/2022, 19:35:52.000527",
+      "type": "get_information",
+      "args0": "Select a way to work with the Wand:\n[1]Apply topic control.\n[2]Check off-topicness of a sentence.\n[3]Get a sentence suggestion.\n[4]Get a story quality tip.\n[5]Get a topic suggestion.\n[6]Let the Wand write.\n(Click > for next page)\nChoose from the options or type in what you wish to do...",
+      "request": {
+        "args0": "Select a way to work with the Wand:\n[1]Apply topic control.\n[2]Check off-topicness of a sentence.\n[3]Get a sentence suggestion.\n[4]Get a story quality tip.\n[5]Get a topic suggestion.\n[6]Let the Wand write.\n(Click > for next page)\nChoose from the options or type in what you wish to do..."
+      },
+      "returned": ">"
+    },
+    {
+      "id": 61,
+      "time": "11/21/2022, 19:35:55.262678",
+      "type": "get_information",
+      "args0": "Select a way to work with the Wand:\n(Click < for previous page)\n[7]Reflect together.\n[8]Replace a sentence.\n[9]Report goal completion.\n[10]Undo.\n[Done]Say \"We're Done!\" (End the session)\nChoose from the options or type in what you wish to do...",
+      "request": {
+        "args0": "Select a way to work with the Wand:\n(Click < for previous page)\n[7]Reflect together.\n[8]Replace a sentence.\n[9]Report goal completion.\n[10]Undo.\n[Done]Say \"We're Done!\" (End the session)\nChoose from the options or type in what you wish to do..."
+      },
+      "returned": "10"
+    },
+    {
+      "id": 62,
+      "time": "11/21/2022, 19:35:56.656966",
+      "type": "get_information",
+      "args0": "Should I revert the last change?",
+      "request": {
+        "args0": "Should I revert the last change?"
+      },
+      "returned": "yes"
+    },
+    {
+      "id": 63,
+      "time": "11/21/2022, 19:35:56.958006",
+      "type": "send_information",
+      "args0": "Done!",
+      "request": {
+        "args0": "Done!"
+      },
+      "returned": "None"
+    },
+    {
+      "id": 64,
+      "time": "11/21/2022, 19:35:56.969637",
+      "type": "sync_react_states",
+      "args0": "",
+      "request": {},
+      "returned": "None"
+    },
+    {
+      "id": 65,
+      "time": "11/21/2022, 19:35:57.270340",
+      "type": "send_information",
+      "args0": "You have 8 interactions left. The experiment will end after the counter reaches 0.",
+      "request": {
+        "args0": "You have 8 interactions left. The experiment will end after the counter reaches 0."
+      },
+      "returned": "None"
+    },
+    {
+      "id": 66,
+      "time": "11/21/2022, 19:36:04.751220",
+      "type": "get_information",
+      "args0": "Select a way to work with the Wand:\n[1]Apply topic control.\n[2]Check off-topicness of a sentence.\n[3]Get a sentence suggestion.\n[4]Get a story quality tip.\n[5]Get a topic suggestion.\n[6]Let the Wand write.\n(Click > for next page)\nChoose from the options or type in what you wish to do...",
+      "request": {
+        "args0": "Select a way to work with the Wand:\n[1]Apply topic control.\n[2]Check off-topicness of a sentence.\n[3]Get a sentence suggestion.\n[4]Get a story quality tip.\n[5]Get a topic suggestion.\n[6]Let the Wand write.\n(Click > for next page)\nChoose from the options or type in what you wish to do..."
+      },
+      "returned": ">"
+    },
+    {
+      "id": 67,
+      "time": "11/21/2022, 19:36:09.160649",
+      "type": "get_information",
+      "args0": "Select a way to work with the Wand:\n(Click < for previous page)\n[7]Reflect together.\n[8]Replace a sentence.\n[9]Report goal completion.\n[10]Undo.\n[Done]Say \"We're Done!\" (End the session)\nChoose from the options or type in what you wish to do...",
+      "request": {
+        "args0": "Select a way to work with the Wand:\n(Click < for previous page)\n[7]Reflect together.\n[8]Replace a sentence.\n[9]Report goal completion.\n[10]Undo.\n[Done]Say \"We're Done!\" (End the session)\nChoose from the options or type in what you wish to do..."
+      },
+      "returned": "10"
+    },
+    {
+      "id": 68,
+      "time": "11/21/2022, 19:36:10.571282",
+      "type": "get_information",
+      "args0": "Should I revert the last change?",
+      "request": {
+        "args0": "Should I revert the last change?"
+      },
+      "returned": "yes"
+    },
+    {
+      "id": 69,
+      "time": "11/21/2022, 19:36:10.872413",
+      "type": "send_information",
+      "args0": "Done!",
+      "request": {
+        "args0": "Done!"
+      },
+      "returned": "None"
+    },
+    {
+      "id": 70,
+      "time": "11/21/2022, 19:36:10.884426",
+      "type": "sync_react_states",
+      "args0": "",
+      "request": {},
+      "returned": "None"
+    },
+    {
+      "id": 71,
+      "time": "11/21/2022, 19:36:11.184820",
+      "type": "send_information",
+      "args0": "You have 8 interactions left. The experiment will end after the counter reaches 0.",
+      "request": {
+        "args0": "You have 8 interactions left. The experiment will end after the counter reaches 0."
+      },
+      "returned": "None"
+    },
+    {
+      "id": 72,
+      "time": "11/21/2022, 19:36:14.027087",
+      "type": "get_information",
+      "args0": "Select a way to work with the Wand:\n[1]Apply topic control.\n[2]Check off-topicness of a sentence.\n[3]Get a sentence suggestion.\n[4]Get a story quality tip.\n[5]Get a topic suggestion.\n[6]Let the Wand write.\n(Click > for next page)\nChoose from the options or type in what you wish to do...",
+      "request": {
+        "args0": "Select a way to work with the Wand:\n[1]Apply topic control.\n[2]Check off-topicness of a sentence.\n[3]Get a sentence suggestion.\n[4]Get a story quality tip.\n[5]Get a topic suggestion.\n[6]Let the Wand write.\n(Click > for next page)\nChoose from the options or type in what you wish to do..."
+      },
+      "returned": ">"
+    },
+    {
+      "id": 73,
+      "time": "11/21/2022, 19:36:17.148158",
+      "type": "get_information",
+      "args0": "Select a way to work with the Wand:\n(Click < for previous page)\n[7]Reflect together.\n[8]Replace a sentence.\n[9]Report goal completion.\n[10]Undo.\n[Done]Say \"We're Done!\" (End the session)\nChoose from the options or type in what you wish to do...",
+      "request": {
+        "args0": "Select a way to work with the Wand:\n(Click < for previous page)\n[7]Reflect together.\n[8]Replace a sentence.\n[9]Report goal completion.\n[10]Undo.\n[Done]Say \"We're Done!\" (End the session)\nChoose from the options or type in what you wish to do..."
+      },
+      "returned": "9"
+    },
+    {
+      "id": 74,
+      "time": "11/21/2022, 19:36:19.343368",
+      "type": "get_information",
+      "args0": "The creative wand is wondering: Which subgoal did we achieve?",
+      "request": {
+        "args0": "The creative wand is wondering: Which subgoal did we achieve?"
+      },
+      "returned": "Start by talking about Business"
+    },
+    {
+      "id": 75,
+      "time": "11/21/2022, 19:36:19.644141",
+      "type": "send_information",
+      "args0": "You answered\"Start by talking about Business\". Thank you!",
+      "request": {
+        "args0": "You answered\"Start by talking about Business\". Thank you!"
+      },
+      "returned": "None"
+    },
+    {
+      "id": 76,
+      "time": "11/21/2022, 19:36:19.655684",
+      "type": "sync_react_states",
+      "args0": "",
+      "request": {},
+      "returned": "None"
+    },
+    {
+      "id": 77,
+      "time": "11/21/2022, 19:36:19.956062",
+      "type": "send_information",
+      "args0": "You have 8 interactions left. The experiment will end after the counter reaches 0.",
+      "request": {
+        "args0": "You have 8 interactions left. The experiment will end after the counter reaches 0."
+      },
+      "returned": "None"
+    },
+    {
+      "id": 78,
+      "time": "11/21/2022, 19:36:22.697482",
+      "type": "get_information",
+      "args0": "Select a way to work with the Wand:\n[1]Apply topic control.\n[2]Check off-topicness of a sentence.\n[3]Get a sentence suggestion.\n[4]Get a story quality tip.\n[5]Get a topic suggestion.\n[6]Let the Wand write.\n(Click > for next page)\nChoose from the options or type in what you wish to do...",
+      "request": {
+        "args0": "Select a way to work with the Wand:\n[1]Apply topic control.\n[2]Check off-topicness of a sentence.\n[3]Get a sentence suggestion.\n[4]Get a story quality tip.\n[5]Get a topic suggestion.\n[6]Let the Wand write.\n(Click > for next page)\nChoose from the options or type in what you wish to do..."
+      },
+      "returned": ">"
+    },
+    {
+      "id": 79,
+      "time": "11/21/2022, 19:36:24.250205",
+      "type": "get_information",
+      "args0": "Select a way to work with the Wand:\n(Click < for previous page)\n[7]Reflect together.\n[8]Replace a sentence.\n[9]Report goal completion.\n[10]Undo.\n[Done]Say \"We're Done!\" (End the session)\nChoose from the options or type in what you wish to do...",
+      "request": {
+        "args0": "Select a way to work with the Wand:\n(Click < for previous page)\n[7]Reflect together.\n[8]Replace a sentence.\n[9]Report goal completion.\n[10]Undo.\n[Done]Say \"We're Done!\" (End the session)\nChoose from the options or type in what you wish to do..."
+      },
+      "returned": "Done"
+    },
+    {
+      "id": 80,
+      "time": "11/21/2022, 19:36:24.550978",
+      "type": "send_information",
+      "args0": "Thank you for using!7",
+      "request": {
+        "args0": "Thank you for using!7"
+      },
+      "returned": "None"
+    }
+  ],
+  "manager_logs": [
+    {
+      "_cc_state_": {
+        "document": [
+          "financial advice was given to every young person in America.",
+          "They were told that it was important to learn about how to make money, so they went to school and started making money.",
+          "Nowadays, we have more children than ever before.",
+          "When they were young, they had their own business.",
+          "The best way to get involved is to start and run a business!",
+          "The Pittsburgh Steelers played football for the first time on October 6, 1963.",
+          "When I started my business, I had no idea what I was doing.",
+          "I didn't know what to expect from the team.",
+          "I thought it was a good idea to bring my kids to the game.",
+          "My kids were playing with a lot of other kids."
+        ],
+        "freeze_mask": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "topic_weight": {
+          "Business": [
+            0.06738685931223116,
+            0.12589520388878372,
+            0.18317642935126255,
+            0.20756610053056077,
+            0.18317647514535274,
+            0.12589526683636992,
+            0.06738690985236935,
+            0.028091059142162228,
+            0.009119837931096223,
+            0.0023058580098113007
+          ],
+          "Sports": [
+            1.0857157744082166e-06,
+            2.4369899133376494e-05,
+            0.0003507289979962156,
+            0.0032364580058806378,
+            0.019149111899962337,
+            0.07264532259637307,
+            0.17670426637231307,
+            0.2755921055473964,
+            0.27559216679005244,
+            0.17670438417511797
+          ]
+        },
+        "sketch_manager_state": [
+          {
+            "topic": "Business",
+            "start": 1,
+            "end": 5
+          },
+          {
+            "topic": "Sports",
+            "start": 6,
+            "end": 9
+          }
+        ],
+        "gen_next_step": null
+      },
+      "doc": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "sketches": [
+        {
+          "topic": "Business",
+          "start": 1,
+          "end": 5
+        }
+      ],
+      "user_choice": "1",
+      "user_choice_comm": "<class 'StorytellingDomain.Application.Instances.Communications.StoryContext.UserProvideSketch.UserSketchComm'>",
+      "time": "11/21/2022, 19:24:29.097895"
+    },
+    {
+      "_cc_state_": {
+        "document": [
+          "financial advice was given to every young person in America.",
+          "They were told that it was important to learn about how to make money, so they went to school and started making money.",
+          "Nowadays, we have more children than ever before.",
+          "When they were young, they had their own business.",
+          "The best way to get involved is to start and run a business!",
+          "The Pittsburgh Steelers played football for the first time on October 6, 1963.",
+          "When I started my business, I had no idea what I was doing.",
+          "I didn't know what to expect from the team.",
+          "I thought it was a good idea to bring my kids to the game.",
+          "My kids were playing with a lot of other kids."
+        ],
+        "freeze_mask": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "topic_weight": {
+          "Business": [
+            0.06738685931223116,
+            0.12589520388878372,
+            0.18317642935126255,
+            0.20756610053056077,
+            0.18317647514535274,
+            0.12589526683636992,
+            0.06738690985236935,
+            0.028091059142162228,
+            0.009119837931096223,
+            0.0023058580098113007
+          ],
+          "Sports": [
+            1.0857157744082166e-06,
+            2.4369899133376494e-05,
+            0.0003507289979962156,
+            0.0032364580058806378,
+            0.019149111899962337,
+            0.07264532259637307,
+            0.17670426637231307,
+            0.2755921055473964,
+            0.27559216679005244,
+            0.17670438417511797
+          ]
+        },
+        "sketch_manager_state": [
+          {
+            "topic": "Business",
+            "start": 1,
+            "end": 5
+          },
+          {
+            "topic": "Sports",
+            "start": 6,
+            "end": 9
+          }
+        ],
+        "gen_next_step": null
+      },
+      "doc": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "sketches": [
+        {
+          "topic": "Business",
+          "start": 1,
+          "end": 5
+        },
+        {
+          "topic": "Sports",
+          "start": 6,
+          "end": 9
+        }
+      ],
+      "user_choice": "1",
+      "user_choice_comm": "<class 'StorytellingDomain.Application.Instances.Communications.StoryContext.UserProvideSketch.UserSketchComm'>",
+      "time": "11/21/2022, 19:24:48.532808"
+    },
+    {
+      "_cc_state_": {
+        "document": [
+          "financial advice was given to every young person in America.",
+          "They were told that it was important to learn about how to make money, so they went to school and started making money.",
+          "Nowadays, we have more children than ever before.",
+          "When they were young, they had their own business.",
+          "The best way to get involved is to start and run a business!",
+          "The Pittsburgh Steelers played football for the first time on October 6, 1963.",
+          "When I started my business, I had no idea what I was doing.",
+          "I didn't know what to expect from the team.",
+          "I thought it was a good idea to bring my kids to the game.",
+          "My kids were playing with a lot of other kids."
+        ],
+        "freeze_mask": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "topic_weight": {
+          "Business": [
+            0.06738685931223116,
+            0.12589520388878372,
+            0.18317642935126255,
+            0.20756610053056077,
+            0.18317647514535274,
+            0.12589526683636992,
+            0.06738690985236935,
+            0.028091059142162228,
+            0.009119837931096223,
+            0.0023058580098113007
+          ],
+          "Sports": [
+            1.0857157744082166e-06,
+            2.4369899133376494e-05,
+            0.0003507289979962156,
+            0.0032364580058806378,
+            0.019149111899962337,
+            0.07264532259637307,
+            0.17670426637231307,
+            0.2755921055473964,
+            0.27559216679005244,
+            0.17670438417511797
+          ]
+        },
+        "sketch_manager_state": [
+          {
+            "topic": "Business",
+            "start": 1,
+            "end": 5
+          },
+          {
+            "topic": "Sports",
+            "start": 6,
+            "end": 9
+          }
+        ],
+        "gen_next_step": null
+      },
+      "doc": [
+        "financial advice was given to every young person in America.",
+        "They were told that it was important to learn about how to make money, so they went to school and started making money.",
+        "Nowadays, we have more children than ever before.",
+        "When they were young, they had their own business.",
+        "The best way to get involved is to start and run a business!",
+        "The Pittsburgh Steelers played football for the first time on October 6, 1963.",
+        "When I started my business, I had no idea what I was doing.",
+        "I didn't know what to expect from the team.",
+        "I thought it was a good idea to bring my kids to the game.",
+        "My kids were playing with a lot of other kids."
+      ],
+      "sketches": [
+        {
+          "topic": "Business",
+          "start": 1,
+          "end": 5
+        },
+        {
+          "topic": "Sports",
+          "start": 6,
+          "end": 9
+        }
+      ],
+      "flag_first_time_[Let the Wand write.]": true,
+      "have_generated_once": true,
+      "user_choice": "3",
+      "user_choice_comm": "<class 'StorytellingDomain.Application.Instances.Communications.StoryContext.RequestGeneration.GenerateCommV2'>",
+      "time": "11/21/2022, 19:25:33.212903"
+    },
+    {
+      "_cc_state_": {
+        "document": [
+          "financial advice was given to every young person in America.",
+          "They were told that it was important to learn about how to make money, so they went to school and started making money.",
+          "Nowadays, we have more children than ever before.",
+          "When they were young, they had their own business.",
+          "The best way to get involved is to start and run a business!",
+          "The Pittsburgh Steelers played football for the first time on October 6, 1963.",
+          "When I started my business, I had no idea what I was doing.",
+          "I didn't know what to expect from the team.",
+          "I thought it was a good idea to bring my kids to the game.",
+          "My kids were playing with a lot of other kids."
+        ],
+        "freeze_mask": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "topic_weight": {
+          "Business": [
+            0.06738685931223116,
+            0.12589520388878372,
+            0.18317642935126255,
+            0.20756610053056077,
+            0.18317647514535274,
+            0.12589526683636992,
+            0.06738690985236935,
+            0.028091059142162228,
+            0.009119837931096223,
+            0.0023058580098113007
+          ],
+          "Sports": [
+            1.0857157744082166e-06,
+            2.4369899133376494e-05,
+            0.0003507289979962156,
+            0.0032364580058806378,
+            0.019149111899962337,
+            0.07264532259637307,
+            0.17670426637231307,
+            0.2755921055473964,
+            0.27559216679005244,
+            0.17670438417511797
+          ]
+        },
+        "sketch_manager_state": [
+          {
+            "topic": "Business",
+            "start": 1,
+            "end": 5
+          },
+          {
+            "topic": "Sports",
+            "start": 6,
+            "end": 9
+          }
+        ],
+        "gen_next_step": null
+      },
+      "doc": [
+        "financial advice was given to every young person in America.",
+        "They were told that it was important to learn about how to make money, so they went to school and started making money.",
+        "Nowadays, we have more children than ever before.",
+        "When they were young, they had their own business.",
+        "The best way to get involved is to start and run a business!",
+        "The Pittsburgh Steelers played football for the first time on October 6, 1963.",
+        "When I started my business, I had no idea what I was doing.",
+        "I didn't know what to expect from the team.",
+        "I thought it was a good idea to bring my kids to the game.",
+        "My kids were playing with a lot of other kids."
+      ],
+      "sketches": [
+        {
+          "topic": "Business",
+          "start": 1,
+          "end": 5
+        },
+        {
+          "topic": "Sports",
+          "start": 6,
+          "end": 9
+        }
+      ],
+      "flag_first_time_[Let the Wand write.]": true,
+      "have_generated_once": true,
+      "flag_first_time_[Get a story quality tip.]": true,
+      "user_choice": "4",
+      "user_choice_comm": "<class 'StorytellingDomain.Application.Instances.Communications.StoryContext.CARP.CARPFindLineByCriticComm.CARPFindLineByDefaultCriticComm'>",
+      "time": "11/21/2022, 19:34:02.044207"
+    },
+    {
+      "_cc_state_": {
+        "document": [
+          "financial advice was given to every young person in America.",
+          "They were told that it was important to learn about how to make money, so they went to school and started making money.",
+          "Nowadays, we have more children than ever before.",
+          "When they were young, they had their own business.",
+          "The best way to get involved is to start and run a business!",
+          "The Pittsburgh Steelers played football for the first time on October 6, 1963.",
+          "When I started my business, I had no idea what I was doing.",
+          "I didn't know what to expect from the team.",
+          "I thought it was a good idea to bring my kids to the game.",
+          "My kids were playing with a lot of other kids."
+        ],
+        "freeze_mask": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "topic_weight": {
+          "Business": [
+            0.06738685931223116,
+            0.12589520388878372,
+            0.18317642935126255,
+            0.20756610053056077,
+            0.18317647514535274,
+            0.12589526683636992,
+            0.06738690985236935,
+            0.028091059142162228,
+            0.009119837931096223,
+            0.0023058580098113007
+          ],
+          "Sports": [
+            1.0857157744082166e-06,
+            2.4369899133376494e-05,
+            0.0003507289979962156,
+            0.0032364580058806378,
+            0.019149111899962337,
+            0.07264532259637307,
+            0.17670426637231307,
+            0.2755921055473964,
+            0.27559216679005244,
+            0.17670438417511797
+          ]
+        },
+        "sketch_manager_state": [
+          {
+            "topic": "Business",
+            "start": 1,
+            "end": 5
+          },
+          {
+            "topic": "Sports",
+            "start": 6,
+            "end": 9
+          }
+        ],
+        "gen_next_step": null
+      },
+      "doc": [
+        "financial advice was given to every young person in America.",
+        "They were told that it was important to learn about how to make money, so they went to school and started making money.",
+        "Nowadays, we have more children than ever before.",
+        "When they were young, they had their own business.",
+        "The best way to get involved is to start and run a business!",
+        "The Pittsburgh Steelers played football for the first time on October 6, 1963.",
+        "When I started my business, I had no idea what I was doing.",
+        "I didn't know what to expect from the team.",
+        "I thought it was a good idea to bring my kids to the game.",
+        "My kids were playing with a lot of other kids."
+      ],
+      "sketches": [
+        {
+          "topic": "Business",
+          "start": 1,
+          "end": 5
+        },
+        {
+          "topic": "Sports",
+          "start": 6,
+          "end": 9
+        }
+      ],
+      "flag_first_time_[Let the Wand write.]": true,
+      "have_generated_once": true,
+      "flag_first_time_[Get a story quality tip.]": true,
+      "highlight_coeff": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "user_choice": "4",
+      "user_choice_comm": "<class 'StorytellingDomain.Application.Instances.Communications.StoryContext.CARP.CARPFindLineByCriticComm.CARPFindLineByDefaultCriticComm'>",
+      "time": "11/21/2022, 19:34:08.415379"
+    },
+    {
+      "_cc_state_": {
+        "document": [
+          "financial advice was given to every young person in America.",
+          "They were told that it was important to learn about how to make money, so they went to school and started making money.",
+          "Nowadays, we have more children than ever before.",
+          "When they were young, they had their own business.",
+          "The best way to get involved is to start and run a business!",
+          "The Pittsburgh Steelers played football for the first time on October 6, 1963.",
+          "When I started my business, I had no idea what I was doing.",
+          "I didn't know what to expect from the team.",
+          "I thought it was a good idea to bring my kids to the game.",
+          "My kids were playing with a lot of other kids."
+        ],
+        "freeze_mask": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "topic_weight": {
+          "Business": [
+            0.06738685931223116,
+            0.12589520388878372,
+            0.18317642935126255,
+            0.20756610053056077,
+            0.18317647514535274,
+            0.12589526683636992,
+            0.06738690985236935,
+            0.028091059142162228,
+            0.009119837931096223,
+            0.0023058580098113007
+          ],
+          "Sports": [
+            1.0857157744082166e-06,
+            2.4369899133376494e-05,
+            0.0003507289979962156,
+            0.0032364580058806378,
+            0.019149111899962337,
+            0.07264532259637307,
+            0.17670426637231307,
+            0.2755921055473964,
+            0.27559216679005244,
+            0.17670438417511797
+          ]
+        },
+        "sketch_manager_state": [
+          {
+            "topic": "Business",
+            "start": 1,
+            "end": 5
+          },
+          {
+            "topic": "Sports",
+            "start": 6,
+            "end": 9
+          }
+        ],
+        "gen_next_step": null
+      },
+      "doc": [
+        "financial advice was given to every young person in America.",
+        "They were told that it was important to learn about how to make money, so they went to school and started making money.",
+        "Nowadays, we have more children than ever before.",
+        "When they were young, they had their own business.",
+        "The best way to get involved is to start and run a business!",
+        "The Pittsburgh Steelers played football for the first time on October 6, 1963.",
+        "When I started my business, I had no idea what I was doing.",
+        "I didn't know what to expect from the team.",
+        "I thought it was a good idea to bring my kids to the game.",
+        "My kids were playing with a lot of other kids."
+      ],
+      "sketches": [
+        {
+          "topic": "Business",
+          "start": 1,
+          "end": 5
+        },
+        {
+          "topic": "Sports",
+          "start": 6,
+          "end": 9
+        }
+      ],
+      "flag_first_time_[Let the Wand write.]": true,
+      "have_generated_once": true,
+      "flag_first_time_[Get a story quality tip.]": true,
+      "user_choice": "10",
+      "user_choice_comm": "<class 'StorytellingDomain.Application.Instances.Communications.UndoCommunication.UndoComm'>",
+      "time": "11/21/2022, 19:35:56.958354"
+    },
+    {
+      "_cc_state_": {
+        "document": [
+          "financial advice was given to every young person in America.",
+          "They were told that it was important to learn about how to make money, so they went to school and started making money.",
+          "Nowadays, we have more children than ever before.",
+          "When they were young, they had their own business.",
+          "The best way to get involved is to start and run a business!",
+          "The Pittsburgh Steelers played football for the first time on October 6, 1963.",
+          "When I started my business, I had no idea what I was doing.",
+          "I didn't know what to expect from the team.",
+          "I thought it was a good idea to bring my kids to the game.",
+          "My kids were playing with a lot of other kids."
+        ],
+        "freeze_mask": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "topic_weight": {
+          "Business": [
+            0.06738685931223116,
+            0.12589520388878372,
+            0.18317642935126255,
+            0.20756610053056077,
+            0.18317647514535274,
+            0.12589526683636992,
+            0.06738690985236935,
+            0.028091059142162228,
+            0.009119837931096223,
+            0.0023058580098113007
+          ],
+          "Sports": [
+            1.0857157744082166e-06,
+            2.4369899133376494e-05,
+            0.0003507289979962156,
+            0.0032364580058806378,
+            0.019149111899962337,
+            0.07264532259637307,
+            0.17670426637231307,
+            0.2755921055473964,
+            0.27559216679005244,
+            0.17670438417511797
+          ]
+        },
+        "sketch_manager_state": [
+          {
+            "topic": "Business",
+            "start": 1,
+            "end": 5
+          },
+          {
+            "topic": "Sports",
+            "start": 6,
+            "end": 9
+          }
+        ],
+        "gen_next_step": null
+      },
+      "doc": [
+        "financial advice was given to every young person in America.",
+        "They were told that it was important to learn about how to make money, so they went to school and started making money.",
+        "Nowadays, we have more children than ever before.",
+        "When they were young, they had their own business.",
+        "The best way to get involved is to start and run a business!",
+        "The Pittsburgh Steelers played football for the first time on October 6, 1963.",
+        "When I started my business, I had no idea what I was doing.",
+        "I didn't know what to expect from the team.",
+        "I thought it was a good idea to bring my kids to the game.",
+        "My kids were playing with a lot of other kids."
+      ],
+      "sketches": [
+        {
+          "topic": "Business",
+          "start": 1,
+          "end": 5
+        },
+        {
+          "topic": "Sports",
+          "start": 6,
+          "end": 9
+        }
+      ],
+      "flag_first_time_[Let the Wand write.]": true,
+      "have_generated_once": true,
+      "user_choice": "10",
+      "user_choice_comm": "<class 'StorytellingDomain.Application.Instances.Communications.UndoCommunication.UndoComm'>",
+      "time": "11/21/2022, 19:36:10.872744"
+    },
+    {
+      "_cc_state_": {
+        "document": [
+          "financial advice was given to every young person in America.",
+          "They were told that it was important to learn about how to make money, so they went to school and started making money.",
+          "Nowadays, we have more children than ever before.",
+          "When they were young, they had their own business.",
+          "The best way to get involved is to start and run a business!",
+          "The Pittsburgh Steelers played football for the first time on October 6, 1963.",
+          "When I started my business, I had no idea what I was doing.",
+          "I didn't know what to expect from the team.",
+          "I thought it was a good idea to bring my kids to the game.",
+          "My kids were playing with a lot of other kids."
+        ],
+        "freeze_mask": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "topic_weight": {
+          "Business": [
+            0.06738685931223116,
+            0.12589520388878372,
+            0.18317642935126255,
+            0.20756610053056077,
+            0.18317647514535274,
+            0.12589526683636992,
+            0.06738690985236935,
+            0.028091059142162228,
+            0.009119837931096223,
+            0.0023058580098113007
+          ],
+          "Sports": [
+            1.0857157744082166e-06,
+            2.4369899133376494e-05,
+            0.0003507289979962156,
+            0.0032364580058806378,
+            0.019149111899962337,
+            0.07264532259637307,
+            0.17670426637231307,
+            0.2755921055473964,
+            0.27559216679005244,
+            0.17670438417511797
+          ]
+        },
+        "sketch_manager_state": [
+          {
+            "topic": "Business",
+            "start": 1,
+            "end": 5
+          },
+          {
+            "topic": "Sports",
+            "start": 6,
+            "end": 9
+          }
+        ],
+        "gen_next_step": null
+      },
+      "doc": [
+        "financial advice was given to every young person in America.",
+        "They were told that it was important to learn about how to make money, so they went to school and started making money.",
+        "Nowadays, we have more children than ever before.",
+        "When they were young, they had their own business.",
+        "The best way to get involved is to start and run a business!",
+        "The Pittsburgh Steelers played football for the first time on October 6, 1963.",
+        "When I started my business, I had no idea what I was doing.",
+        "I didn't know what to expect from the team.",
+        "I thought it was a good idea to bring my kids to the game.",
+        "My kids were playing with a lot of other kids."
+      ],
+      "sketches": [
+        {
+          "topic": "Business",
+          "start": 1,
+          "end": 5
+        },
+        {
+          "topic": "Sports",
+          "start": 6,
+          "end": 9
+        }
+      ],
+      "flag_first_time_[Let the Wand write.]": true,
+      "have_generated_once": true,
+      "user_choice": "9",
+      "user_choice_comm": "<class 'StorytellingDomain.Application.Instances.Communications.FeedbackComm.FeedbackComm'>",
+      "time": "11/21/2022, 19:36:19.644470"
+    },
+    {
+      "time": "11/21/2022, 19:36:24.551290",
+      "obj": "Done"
+    }
+  ]
+}
