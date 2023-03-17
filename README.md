@@ -5,6 +5,8 @@ domain.
 For more details on what this is, feel free to
 check [Creative Wand: A System to Study Effects of Communications in Co-Creative Settings](https://ojs.aaai.org/index.php/AIIDE/article/view/21946).
 
+(Please see the `release` branch for the older version of Creative Wand with the framework and the exemplar application unseparated.
+
 # Installation & Setup
 
 This is a library that supports applications that is developed using Creative Wand.
