@@ -7,6 +7,9 @@ check [Creative Wand: A System to Study Effects of Communications in Co-Creative
 
 (Please see the `release` branch for the older version of Creative Wand with the framework and the exemplar application unseparated.
 
+# See this in action
+See https://github.com/eilab-gt/beyond-prompts-experiment for a storytelling artifact created with Creative Wand. Enjoy!
+
 # Installation & Setup
 
 This is a library that supports applications that is developed using Creative Wand.
