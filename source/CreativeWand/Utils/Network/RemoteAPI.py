@@ -66,7 +66,7 @@ class RemoteAPIInterface():
         while True:
             try:
                 r = requests.post(url=url, data=data)
-                print(r.text)
+                # print(r.text)
                 result = json.loads(r.text)
                 # print("RESULT:%s"%r.text)
                 return result

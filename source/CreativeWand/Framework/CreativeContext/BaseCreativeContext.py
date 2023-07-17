@@ -3,8 +3,12 @@ BaseCreativeContext.py
 
 This file contains the base class BaseCreativeContext, a representation for content generator interface.
 """
-
+from __future__ import annotations
 from abc import ABC, abstractmethod
+from typing import Type, TYPE_CHECKING
+
+if TYPE_CHECKING:
+    from CreativeWand.Framework.CreativeContext.BaseCapability import BaseCapability
 
 
 class ContextQuery:
@@ -24,6 +28,30 @@ class BaseCreativeContext(ABC):
 
     def __init__(self):
         self.state = {}
+        self.capabilities = {}
+
+    def register_capabilities(self, name: str, cap_object: Type[BaseCapability]):
+        """
+        Register a capability to this creative context.
+        :param name: name to be used when calling.
+        :param cap_object: capability object.
+        :return: None
+        """
+        if name in self.capabilities:
+            raise KeyError(f"Trying to add capability named {name} but it already exists.")
+        self.capabilities[name] = cap_object
+
+    def call_capabilities(self, name, **kwargs):
+        """
+        Call a certain capability.
+        :param name: name of the capability to be called.
+        :param kwargs: arguments to be parsed to the capability.
+        :return: result of using this capability.
+        """
+        if name not in self.capabilities:
+            raise KeyError(f"Trying to call unknown capability: {name}")
+        result = self.capabilities[name](**kwargs)
+        return result
 
     def reset(self):
         """
